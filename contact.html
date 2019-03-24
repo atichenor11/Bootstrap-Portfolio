@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Andrew's Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+          background-image: url(assets/images/white-waves.png);}
+        </style>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar--dark bg-dark">
+      <div class="container">
+          <h1 class="mt-5 text-white font-weight-light text-center">Andrew Tichenor</h1>
+    </div>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            External Links 
+          </a>
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="https://fusionauth.io/features">FusionAuth</a>
+              <a class="dropdown-item" href="https://cleanspeak.com/products/profanity-filter">CleanSpeak</a>
+              <a class="dropdown-item" href="https://www.linkedin.com/in/andrewtichenor/">LinkedIn</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+  <!-- Links -->
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item active">
+      <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="contact.html">Contact</a>
+    </li>
+  </ul>
+      </nav>
+<!-- Links -->
+<br>
+  <!--Form with header-->
+  <div class="container">
+  <form action="mail.php" method="post">
+    <div class="card border-primary rounded-0">
+        <div class="card-header p-0">
+            <div class="bg-info text-white text-center py-2">
+                <h3><i class="fa fa-envelope"></i> Contact Me</h3>
+                <p class="m-0">Please provide a message if you are interested in working together or an Inversoft product</p>
+            </div>
+        </div>
+        <div class="card-body p-3">
+
+            <!--Body-->
+            <div class="form-group">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-user text-info"></i></div>
+                    </div>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="First and Last Name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-envelope text-info"></i></div>
+                    </div>
+                    <input type="email" class="form-control" id="name" name="email" placeholder="email@gmail.com" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text"><i class="fa fa-comment text-info"></i></div>
+                    </div>
+                    <textarea class="form-control" placeholder="Glad to hear from you" required></textarea>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <input type="submit" class="btn btn-info btn-block rounded-0 py-2">
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<!--Form with header-->
+        <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
+          <div class="container text-center">
+            <small>2019 &copy; Andrew Portfolio</small>
+          </div>
+        </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
